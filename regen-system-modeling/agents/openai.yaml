@@ -1,0 +1,4 @@
+interface:
+  display_name: "Regen System Modeling"
+  short_description: "把复杂任务建模成可观察、可定位、可推进的清晰系统地图"
+  default_prompt: "Use $regen-system-modeling to turn this messy task into a clear system model."

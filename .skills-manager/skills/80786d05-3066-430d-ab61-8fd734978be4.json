@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "80786d05-3066-430d-ab61-8fd734978be4",
+  "path": "songsee",
+  "path_key": "songsee",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

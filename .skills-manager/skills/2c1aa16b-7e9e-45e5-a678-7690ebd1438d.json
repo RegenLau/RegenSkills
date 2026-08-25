@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2c1aa16b-7e9e-45e5-a678-7690ebd1438d",
+  "path": "google-workspace",
+  "path_key": "google-workspace",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

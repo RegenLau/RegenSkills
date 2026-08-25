@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b927fefe-c7cb-4a3a-901a-e1495400f975",
+  "path": "heartmula",
+  "path_key": "heartmula",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

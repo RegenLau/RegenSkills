@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "deda88d9-618f-4710-9176-ea4db3a073f6",
+  "path": "regen-system-modeling",
+  "path_key": "regen-system-modeling",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

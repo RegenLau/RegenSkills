@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3ff8e20c-2152-4da9-b0c4-1c6caf3af11f",
+  "path": "gpt-image",
+  "path_key": "gpt-image",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

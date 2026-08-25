@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "360f3c62-b2a5-489d-8594-51c8e9462abd",
+  "path": "github-repo-management",
+  "path_key": "github-repo-management",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

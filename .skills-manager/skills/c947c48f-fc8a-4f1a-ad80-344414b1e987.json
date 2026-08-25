@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c947c48f-fc8a-4f1a-ad80-344414b1e987",
+  "path": "yuanbao",
+  "path_key": "yuanbao",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

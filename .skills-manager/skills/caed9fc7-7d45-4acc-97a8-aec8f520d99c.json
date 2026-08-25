@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "caed9fc7-7d45-4acc-97a8-aec8f520d99c",
+  "path": "hyperframes-animation",
+  "path_key": "hyperframes-animation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

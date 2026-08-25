@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d6489752-4f7c-45ca-8cf1-d53b94cd06ce",
+  "path": "wechat-video-replica",
+  "path_key": "wechat-video-replica",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

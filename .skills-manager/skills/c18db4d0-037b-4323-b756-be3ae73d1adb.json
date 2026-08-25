@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c18db4d0-037b-4323-b756-be3ae73d1adb",
+  "path": "himalaya",
+  "path_key": "himalaya",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
