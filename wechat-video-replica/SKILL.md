@@ -45,6 +45,8 @@ agent_created: true
 - **`tpad stop` 单位是帧不是秒**（stop=2 只补 2 帧），补末帧用 `tpad=stop_mode=clone:stop=150` 再 `-t dur` 截断。
 - **xfade 偏移必须用构建后实测的视频流时长**（ffprobe stream=duration）。若某块视频比音频短，offset 错位会导致后续全部塌方（成片视频流只剩几十秒，audio 正常）。
 - 片头 Ken Burns：`scale=1296:729,zoompan=z='min(zoom+0.0006,1.10)':d=N:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=864x486:fps=25`。
+- **zoompan 的 d 作用在循环输入的每一帧上**：`-loop 1 -t N` 输入有 N*fps 帧时，zoompan d=帧数 会把总帧数放大 N 倍——同段音频配两张图（concat 两子段）时前段永远播不完。解决：子段输入改 `-loop 1 -t 0.04`（单帧）+ zoompan d=子段帧数，再 concat。
+- **PIL 画 UI 图标不要用 unicode 符号**（⚡✓◉ 在 Hiragino Sans GB 下变豆腐块），用 line/polygon/arc 手绘。
 - xfade 链 offset 递推：`offset_k = sum(dur_0..k-1) - XF*k`。
 
 ## H. 质检
